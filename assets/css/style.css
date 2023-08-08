@@ -106,18 +106,25 @@ main{
 #cover-text{
     
     /*Final rgba value sets the opacity so it semi-transparent */
-    background-color: transparent;
+    background-color: rgba(143, 142, 142, 0.5);;
     font-size: 130%;
     position: absolute;
-    width: 80%;
+    width: 100%;
     min-height: 200px;
     /* padding-top: 40px;
     padding-left: 10px;
     bottom: 30px; */
+    display: flex;
+    flex-direction: column;
     color: #ffffff;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
+#cover-text h2{
+    text-transform: uppercase;
+}
 
 /*Footer*/
 #social-networks{
