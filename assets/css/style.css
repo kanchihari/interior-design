@@ -146,6 +146,11 @@ main{
     padding-bottom: 20px;
 }
 
+#catalog-content{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 /*Gallery page*/
 #photos img{
     width: 100%;
@@ -156,10 +161,38 @@ main{
     line-height: 0;
 }
 
+ul {
+    list-style: none;
+  }
 
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .image-gallery > li {
+    flex-basis: 350px; /*width: 350px;*/
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .image-gallery::after {
+    content: "";
+    flex-basis: 350px;
+  }
+  
+  .image-gallery li img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5px;
+  }
 
 #signup{
-    background: url("../images/dublin-city.webp") no-repeat center center/cover;
+    background: url("../images/signup.webp") no-repeat center center/cover;
     background-position: 75%;
     padding: 10%;
     flex-grow: 1;
@@ -288,7 +321,7 @@ main{
     }
     /*Gallery*/
     #photos{
-        column-count: 3;
+        column-count: 4;
         column-gap: 0;
     }
 }
