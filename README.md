@@ -7,14 +7,15 @@ The webpage also provides educational resources penned by experienced designers,
 ![Responsive Design](./assets/images/responsive_design.png)
 
 ## Features
-*Navigation links
-*Home page
-*About Us
-*Catalog page
-*SignUp page
-*Contact 
 
-### Navigation links:
+* Navigation links
+* Home page
+* About Us
+* Catalog page
+* SignUp page
+* Contact 
+
+### Navigation links
 
 The header nav-bar contains of the heading(InteriorDesign) and navigation links of Home,About-Us,Catalog,Signup and contact links.
 which helps the user to navigate through the webpage.
@@ -22,47 +23,63 @@ The header is fully responsive for all screens sizes which gives a nice feel all
 
 ![header-image](./assets/images/header-content.png)
 
-### Home page:
+### Home page
 
 The Home page contains of a video which runs in the background showing a interior desing of bedroom which plays in loop with out sound and contains of the h1 header(Interiordesign) with a paragraph which explains the main moto of the web page.
 
 ![Home-page](./assets/images/home-page.png)
 
-## About Us:
+### About Us :
 
 The about-us page contains a paragraph which explains about the InteriorDesign company moto and the kind of service's which they going to provide to the user.
 
 ![About-Us](./assets/images/About-us-content.png)
 
+### Catalog :
 
-## Codeanywhere Reminders
+The Catalog Page contains few images of the interior design which  is done by the company for the cilent and few of upcoming inerior design which they are going provide for the cilent in future.This block can be dynamic.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+![Catalog](./assets/images/catalog-page.png)
 
-`python3 -m http.server`
+### SignUp page :
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+The SignUp page contains of  the inputs types like name,last name  and email where the user can enter his or her personal details to make  sing in for company.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+![Signup-page](./assets/images/singup-page.png)
 
-`http_server`
+### Contact :
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The contact content is presented in the footer section which contains of the social media links of the company 
+and contact content have the details of the company like name of the contact person,location,emial id and mobile number.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![Contant-details](./assets/images/contact%20_page.png)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Testing :
 
-To log into the Heroku toolbelt CLI:
+* I tested that this page work on different browser like Chrome and firefox.
+* I confirmed that this page is fully responsive on all types of standard screen sizes using dev-tools device toolbar.
+* I confirmed that all naviagation,header,about-us,catalog,signup and contact us are readable and easy to understand.
+* I confirmed that the form works required entries in all input filed and vaildated the email field and submit button.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Bugs :
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+#### solved all the bugs
 
----
+* When i deployed my project to githud pages the image tags are not working and the videos is not palying(due to css path given worngly)
+* I have added the alt attribute to the video path whcih is not accepted and the images have an absolute path.
+* I have remove the alt attribute from video file path and added the relative path by giving ./ to the pervious image path.
 
-Happy coding!
+![Relative-path](./assets/images/Relative-path.png)
+
+## Validatory Testing:
+
+* HTML:-
+    - No error were found when passing through the offical W3C HTML validator. 
+
+* css:-
+    - No error were  found when passing through the W3C CSS Validator (Jigsaw).
+
+* Accessibility:-
+    - I confirm that the colors and fonts choosen are easy to read and accessible by running the code through lighthouse in devtools
+
+![Responsive-image](./assets/images/lighthouse-image.png)
