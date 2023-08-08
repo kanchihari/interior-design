@@ -1,6 +1,11 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+
+html {  
+    scroll-behavior: smooth;  
+}
+
 /*Asterisk wildcard selector*/
 *{
     margin: 0;
@@ -83,10 +88,13 @@ nav{
 font-size: 2rem;
 color: #ffffff;
 }
+
+header a:hover{
+    text-decoration: underline;
+}
+
 /*main-content*/
 main{
-
-
     /*Making main element take surplus space to push footer down*/
     flex: 1 0 auto;
     /*to show the main content down the header*/
@@ -124,6 +132,10 @@ main{
 
 #cover-text h2{
     text-transform: uppercase;
+}
+
+#about-content{
+    width: 100%;
 }
 
 /*Footer*/
@@ -184,4 +196,10 @@ main{
      border-bottom: 1px solid #3a3a3a;   
     }
     
+}
+
+@media screen and (max-width:304px){
+    body{
+        width: fit-content;
+    }
 }
