@@ -89,6 +89,8 @@ main{
 
     /*Making main element take surplus space to push footer down*/
     flex: 1 0 auto;
+    /*to show the main content down the header*/
+    margin-top: 47px ;
 }
 
 
