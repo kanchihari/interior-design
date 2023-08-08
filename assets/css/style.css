@@ -20,7 +20,7 @@ body{
 
 /*Header*/
 header{
-    background-color: #ffffff;
+    background-color: rgb(104, 158, 202);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -35,7 +35,7 @@ header{
 
 header a{
     text-decoration: none;
-    color:inherit;
+    color:white;
 }
 
 
@@ -43,7 +43,7 @@ h1{
     font-family: 'Oswald',sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
+    color: #ffffff;
 }
 #menu{
     font-size: 110%;
@@ -54,13 +54,12 @@ h1{
     margin-bottom: 1rem;
 }
 .active{
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid orangered;
 }
 
 /*Nav-bar styles with dropdown*/
 nav{
     position: absolute;
-    background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -82,6 +81,7 @@ nav{
 .nav-toggle-label{
     /*to increase the size of nav-toogle(X)*/
 font-size: 2rem;
+color: #ffffff;
 }
 /*main-content*/
 main{
@@ -90,22 +90,30 @@ main{
     /*Making main element take surplus space to push footer down*/
     flex: 1 0 auto;
     /*to show the main content down the header*/
-    margin-top: 47px ;
+     margin-top:  48px; 
+}
+
+#image{
+    width: 100%;
 }
 
 /*Footer*/
 #social-networks{
+    background-color: rgb(104, 158, 202);;
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    color: #ffffff;
+    width: 100%;
 }
 /*to target all i elements in social-network */
 #social-networks i{
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: white;
+
 }
 
 /*Media query:tablets and larger(768px and above)*/
@@ -135,6 +143,9 @@ main{
     }
     main{
         margin-top: 79px;
+    }
+    #social-networks{
+        width: 100%;
     }
 }
 
