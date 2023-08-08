@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="InteriorDesign ,design living room,bed room.Design your home"
-    />
+    <meta name="description" content="InteriorDesign ,design living room,bed room.Design your home" />
     <meta name="keyword" content="Living room,bed room,catalog,sing-up,about" />
     <!--Title-->
     <title>InteriorDesign</title>
@@ -15,26 +13,27 @@
 
     <!--Stylesheet-->
     <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <!--Header-->
     <header>
-      <a href="index.html">
-        <h1 id="logo">InteriorDesign</h1>
-      </a>
-      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label">
-        <i class="fa-solid fa-bars"></i>
-      </label>
-      <nav>
-        <ul id="menu">
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="">Catalog</a></li>
-          <li><a href="">Signup</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-      </nav>
+        <a href="index.html">
+            <h1 id="logo">InteriorDesign</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav>
+            <ul id="menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="">Catalog</a></li>
+                <li><a href="">Signup</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!--Main Content-->
@@ -45,60 +44,90 @@
                 <p>
                     Make your dream home come ture with Interior Design. </br>
                     A place where your design your home according your wish.
-                  </p>
+                </p>
             </div>
         </section>
         <section id="about">
-            <object id="about-content" data="about.html"></object>
+            <div id="about-content">
+                <h2>About Us</h2>
+                <p>
+                    Welcome to Interior Design, where creativity meets functionality, and spaces come to life. We are a
+                    passionate team of skilled interior designers dedicated to transforming your living and working
+                    spaces into unique reflections of your personality and style. With a keen eye for detail and a
+                    commitment to excellence, we are here to turn your design dreams into reality.
+                </p>
+                <h3>Our Vision</h3>
+                <p>
+                    At Interior Design , our vision is to create inspiring, harmonious interiors that
+                    not only enhance the aesthetics of a space but also elevate the quality of life for those who
+                    inhabit it. We believe that every space has a story to tell, and our mission is to unravel that
+                    story through thoughtful design, innovative concepts, and impeccable execution.
+                </p>
+
+            </div>
+        </section>
+        <section id ="catalog">
+            <div id="singup-form">
+
+            </div>
+
+        </section>
+        <section id="signup">
+            <form id="signup-form" action="https://formdump.codeinstitute.net" method="post">
+                <h2><i class="fa-solid fa-heart-pulse"></i> LET'S GET YOU SIGNED UP!</h2>
+                
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <br>
+            
+                <div class="radio-buttons">
+                    <div><label for="road">Road</label>
+                        <input type="radio" name="running_preference" id="road" value="road" required checked>
+                    </div>
+                    <div><label for="trail">Trail</label>
+                        <input type="radio" name="running_preference" id="trail" value="road" required>
+                    </div>
+                    <div><label for="both">Both</label>
+                        <input type="radio" name="running_preference" id="both" value="road" required>
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Let's Run!</button>
+            </form>
         </section>
     </main>
 
     <!--Footer-->
-    <footer>
-      <ul id="social-networks">
-        <li>
-          <a
-            href="https://www.facebook.com/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our facebook page(opens in a new tab)"
-            ><i class="fa-brands fa-facebook"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.twitter.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our twitter page(opens in a new tab)"
-            ><i class="fa-brands fa-square-twitter"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.youtube.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our youtube page(opens in a new tab)"
-            ><i class="fa-brands fa-square-youtube"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.instagram.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our instagram page(opens in a new tab)"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-        </li>
-      </ul>
+    <footer id="contact">
+        <ul id="social-networks">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our facebook page(opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our twitter page(opens in a new tab)"><i
+                        class="fa-brands fa-square-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our youtube page(opens in a new tab)"><i
+                        class="fa-brands fa-square-youtube"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our instagram page(opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
     </footer>
 
     <!--FontAwesome kit-->
-    <script
-      src="https://kit.fontawesome.com/c3a8b4207f.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://kit.fontawesome.com/c3a8b4207f.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
