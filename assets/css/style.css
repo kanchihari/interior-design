@@ -164,6 +164,7 @@ main{
 #signup-form >h2 {
     color: #fafafa;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .text-input {
@@ -185,6 +186,8 @@ main{
     font-size: 100%;
     background-color: rgb(73, 120, 190);
     color: #fafafa;
+    border-bottom: none;
+    border-right: none;
 }
 
 /*Footer*/
