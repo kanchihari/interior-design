@@ -6,6 +6,35 @@ The webpage also provides educational resources penned by experienced designers,
 
 ![Responsive Design](./assets/images/responsive_design.png)
 
+## Features
+*Navigation links
+*Home page
+*About Us
+*Catalog page
+*SignUp page
+*Contact 
+
+### Navigation links:
+
+The header nav-bar contains of the heading(InteriorDesign) and navigation links of Home,About-Us,Catalog,Signup and contact links.
+which helps the user to navigate through the webpage.
+The header is fully responsive for all screens sizes which gives a nice feel all kinds for users.
+
+![header-image](./assets/images/header-content.png)
+
+### Home page:
+
+The Home page contains of a video which runs in the background showing a interior desing of bedroom which plays in loop with out sound and contains of the h1 header(Interiordesign) with a paragraph which explains the main moto of the web page.
+
+![Home-page](./assets/images/home-page.png)
+
+## About Us:
+
+The about-us page contains a paragraph which explains about the InteriorDesign company moto and the kind of service's which they going to provide to the user.
+
+![About-Us](./assets/images/About-us-content.png)
+
+
 ## Codeanywhere Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
