@@ -101,21 +101,22 @@ main{
      margin-top:  48px; 
 }
 
-#hero{
-    height: 600px;
+#home{
     width: 100%;
-    background: url("../images/home2-img.jpg") no-repeat center center/cover;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+#home-video{
+    width: 100%;
+}
+
 #cover-text{
     
     /*Final rgba value sets the opacity so it semi-transparent */
     background-color: rgba(143, 142, 142, 0.5);
-    font-size: 130%;
     position: absolute;
     width: 100%;
     min-height: 200px;
@@ -242,12 +243,17 @@ main{
     }
 }
 
-/*Media query for larger devices(laptop and desktops,992px and above)*/
-@media screen and(min-width:992px) {
-    #menu a:hover{
-     border-bottom: 1px solid #3a3a3a;   
+@media screen and (min-width:768px) and (max-width:991px) {
+    #cover-text{
+        font-size: 130%;;
     }
-    
+}
+
+/*Media query for larger devices(laptop and desktops,992px and above)*/
+@media screen and (min-width:992px) {
+    #cover-text{
+        font-size: 160%;;
+    }
 }
 
 @media screen and (max-width:304px){
