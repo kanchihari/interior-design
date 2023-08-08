@@ -1,10 +1,10 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Interior Design
 
-Welcome,
+The interior design webpage is a platform that blends artistic creativity with practical functionality, offering a curated collection of design styles, inspirations, and expert insights. It showcases a range of design approaches from contemporary to classic, covering color palettes, furniture arrangements, lighting techniques, and sustainable materials. 
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The webpage also provides educational resources penned by experienced designers, including articles on spatial optimization, material selection, and design psychology. Users can engage with the platform by creating personalized mood boards and participating in design challenges. This fosters a sense of community among design enthusiasts. The webpage transcends traditional design concepts by exploring sustainability, technology integration, and biophilic design, emphasizing a holistic approach to interior spaces. Ultimately, the interior design webpage serves as an evolving hub for both aspirational ideas and practical advice, celebrating the fusion of artistry and functionality in the world of interior design.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+![Responsive Design](./assets/images/responsive_design.png)
 
 ## Codeanywhere Reminders
 
