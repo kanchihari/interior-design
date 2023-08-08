@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 
-html {  
-    scroll-behavior: smooth;  
-}
-
 /*Asterisk wildcard selector*/
 *{
     margin: 0;
@@ -27,7 +23,7 @@ body{
 header{
     background-color: rgb(73, 120, 190);
     padding: 0 1rem;
-    position: fixed;
+    /* position: fixed;*/
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px rgb(73, 120, 190);
@@ -98,7 +94,7 @@ main{
     /*Making main element take surplus space to push footer down*/
     flex: 1 0 auto;
     /*to show the main content down the header*/
-     margin-top:  48px; 
+     /*margin-top:  48px; */
 }
 
 #home{
@@ -235,9 +231,9 @@ main{
         line-height: 75px;
         margin: 0 0.5rem;
     }
-    main{
+    /* main{
         margin-top: 77px;
-    }
+    } */
     #social-networks{
         width: 100%;
     }
