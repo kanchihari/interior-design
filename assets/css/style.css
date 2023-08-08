@@ -23,7 +23,7 @@ body{
 header{
     background-color: rgb(73, 120, 190);
     padding: 0 1rem;
-    /* position: fixed;*/
+    position: absolute;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px rgb(73, 120, 190);
@@ -107,6 +107,7 @@ main{
 
 #home-video{
     width: 100%;
+    position: relative;
 }
 
 #cover-text{
@@ -115,7 +116,7 @@ main{
     background-color: rgba(143, 142, 142, 0.5);
     position: absolute;
     width: 100%;
-    min-height: 200px;
+    min-height: 25%;
     /* padding-top: 40px;
     padding-left: 10px;
     bottom: 30px; */
@@ -269,8 +270,15 @@ main{
     }
 }
 
-@media screen and (max-width:304px){
+@media screen and (max-width:540px){
     body{
         width: fit-content;
+    }
+    #cover-text{
+        font-size: 50%;
+        align-items: flex-end;
+    }
+    nav{
+        font-size: 50%;
     }
 }
