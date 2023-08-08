@@ -94,10 +94,19 @@ main{
 }
 
 /*Footer*/
-
-
-
-
+#social-networks{
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+/*to target all i elements in social-network */
+#social-networks i{
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 
 /*Media query:tablets and larger(768px and above)*/
 @media screen and (min-width:768px){
