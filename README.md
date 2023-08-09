@@ -19,13 +19,13 @@ The webpage also provides educational resources penned by experienced designers,
 
 The header nav-bar contains of the heading(InteriorDesign) and navigation links of Home,About-Us,Catalog,Signup and contact links.
 which helps the user to navigate through the webpage.
-The header is fully responsive for all screens sizes which gives a nice feel all kinds for users.
+The header is fully responsive for all screens sizes which gives a nice experience to all kinds for users.
 
 ![header-image](./assets/images/header-content.png)
 
 ### Home page
 
-The Home page contains of a video which runs in the background showing a interior desing of bedroom which plays on click and contains of the h1 header(Interiordesign) with a paragraph which explains the main moto of the web page.
+The Home page contains of a video which runs in the background showing a interior desing of sleepingroom which plays on click and contains of the h1 header(Interiordesign) with a paragraph which explains the main moto of the web page.
 
 ![Home-page](./assets/images/home-page.png)
 
@@ -50,7 +50,7 @@ The SignUp page contains of  the inputs types like name,last name  and email whe
 ### Contact :
 
 The contact content is presented in the footer section which contains of the social media links of the company 
-and contact content have the details of the company like name of the contact person,location,emial id and mobile number.
+and contact content have the details of the company like name of the contact person,location,email id and mobile number.
 
 ![Contant-details](./assets/images/contact%20_page.png)
 
@@ -71,7 +71,7 @@ and contact content have the details of the company like name of the contact per
 
 ![Relative-path](./assets/images/Relative-path.png)
 
-## Validatory Testing:
+## Validator Testing:
 
 * HTML:-
     - No error were found when passing through the offical W3C HTML validator. 
@@ -95,11 +95,9 @@ The live link can be found here: [click to view site](https://kanchihari.github.
 
 ## Credits
 * Content
-    - The code to make a part footer,header and singup form is take from the [love-running-v3]() project.
+    - The code to make footer,header and singup form is take from the [love-running-v3]() project.
     - The code for css styles for video is taken from [w3schools](www.W3schools.com)
 
 * Media
     - The image used for header are taken from [pexels]()
     - The images used for catalog and singup form are taken from [unsplash.com](https://unsplash.com/) 
-
-[def]: https://unsplash.com/
