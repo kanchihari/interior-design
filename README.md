@@ -83,3 +83,23 @@ and contact content have the details of the company like name of the contact per
     - I confirm that the colors and fonts choosen are easy to read and accessible by running the code through lighthouse in devtools
 
 ![Responsive-image](./assets/images/lighthouse-image.png)
+
+## Unfixed bugs
+No Unfixed bugs.
+## Deployment
+* This site was deployed to GitHud pages and the steps to deploy are as follows:
+    - In the GitHud respository navigate to Settings tag.
+    - From the Source section dropdown menu, select the Master Branch.
+    - Onces the Master Branch is selected,the page provide the link to complete website.
+The live link can be found here: [click to view site](https://kanchihari.github.io/interior-design/)
+
+## Credits
+* Content
+    - The code to make a part footer,header and singup form is take from the [love Running]() project.
+    - The code for css styles for video is taken from [w3schools](www.W3schools.com)
+
+* Media
+    - The image used for header are taken from [pexels]
+    - The images used for catalog and singup form are taken from[unsplash.com] 
+
+[def]: https://unsplash.com/
