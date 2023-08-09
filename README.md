@@ -100,6 +100,6 @@ The live link can be found here: [click to view site](https://kanchihari.github.
 
 * Media
     - The image used for header are taken from [pexels]()
-    - The images used for catalog and singup form are taken from[unsplash.com](https://unsplash.com/) 
+    - The images used for catalog and singup form are taken from [unsplash.com](https://unsplash.com/) 
 
 [def]: https://unsplash.com/
