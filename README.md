@@ -99,7 +99,7 @@ The live link can be found here: [click to view site](https://kanchihari.github.
     - The code for css styles for video is taken from [w3schools](www.W3schools.com)
 
 * Media
-    - The image used for header are taken from [pexels]
-    - The images used for catalog and singup form are taken from[unsplash.com] 
+    - The image used for header are taken from [pexels]()
+    - The images used for catalog and singup form are taken from[unsplash.com](https://unsplash.com/) 
 
 [def]: https://unsplash.com/
