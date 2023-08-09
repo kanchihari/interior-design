@@ -1,4 +1,4 @@
-# Interior Design
+# Interior Design 
 
 The interior design webpage is a platform that blends artistic creativity with practical functionality, offering a curated collection of design styles, inspirations, and expert insights. It showcases a range of design approaches from contemporary to classic, covering color palettes, furniture arrangements, lighting techniques, and sustainable materials. 
 
@@ -43,7 +43,7 @@ The Catalog Page contains few images of the interior design which  is done by th
 
 ### SignUp page :
 
-The SignUp page contains of  the inputs types like name,last name  and email where the user can enter his or her personal details to make  sing in for company.
+The SignUp page contains of the input types like name,last name  and email where the user can enter his or her personal details to make  sing in for company.
 
 ![Signup-page](./assets/images/singup-page.png)
 
@@ -58,14 +58,14 @@ and contact content have the details of the company like name of the contact per
 
 * I tested that this page work on different browser like Chrome and firefox.
 * I confirmed that this page is fully responsive on all types of standard screen sizes using dev-tools device toolbar.
-* I confirmed that all naviagation,header,about-us,catalog,signup and contact us are readable and easy to understand.
-* I confirmed that the form works required entries in all input filed and vaildated the email field and submit button.
+* I confirmed that all navigation,header,about-us,catalog,signup and contact us are readable and easy to understand.
+* I confirmed that the form works required entries in all input field and vaildated the email field and submit button.
 
 ## Bugs :
 
 #### solved all the bugs
 
-* When i deployed my project to githud pages the image tags are not working and the videos link is broken(due to css path given are absolute)
+* When i deployed my project to GitHud pages the image tags are not working and the videos link is broken (due to css path given are absolute)
 * I have added the alt attribute to the video path which is not accepted and the images have an absolute path.
 * I have remove the alt attribute from video file path and added the relative path by giving ./ to the pervious image path.
 
