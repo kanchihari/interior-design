@@ -25,7 +25,7 @@ The header is fully responsive for all screens sizes which gives a nice feel all
 
 ### Home page
 
-The Home page contains of a video which runs in the background showing a interior desing of bedroom which plays in loop with out sound and contains of the h1 header(Interiordesign) with a paragraph which explains the main moto of the web page.
+The Home page contains of a video which runs in the background showing a interior desing of bedroom which plays on click and contains of the h1 header(Interiordesign) with a paragraph which explains the main moto of the web page.
 
 ![Home-page](./assets/images/home-page.png)
 
@@ -65,8 +65,8 @@ and contact content have the details of the company like name of the contact per
 
 #### solved all the bugs
 
-* When i deployed my project to githud pages the image tags are not working and the videos is not palying(due to css path given worngly)
-* I have added the alt attribute to the video path whcih is not accepted and the images have an absolute path.
+* When i deployed my project to githud pages the image tags are not working and the videos link is broken(due to css path given are absolute)
+* I have added the alt attribute to the video path which is not accepted and the images have an absolute path.
 * I have remove the alt attribute from video file path and added the relative path by giving ./ to the pervious image path.
 
 ![Relative-path](./assets/images/Relative-path.png)
@@ -95,7 +95,7 @@ The live link can be found here: [click to view site](https://kanchihari.github.
 
 ## Credits
 * Content
-    - The code to make a part footer,header and singup form is take from the [love Running]() project.
+    - The code to make a part footer,header and singup form is take from the [love-running-v3]() project.
     - The code for css styles for video is taken from [w3schools](www.W3schools.com)
 
 * Media
